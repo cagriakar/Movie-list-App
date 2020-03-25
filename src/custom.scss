@@ -75,7 +75,6 @@ body {
 
 /*** MovieCard ****/
 .card {
-    background-color: black;
     .card-body {
         padding: 10px;
         h5 {
@@ -84,7 +83,7 @@ body {
         display: flex;
         justify-content: space-between;
         opacity: 0.8;
-        background-color: white;
+        background-color: black;
     }
     @include hoverEffect();
     @include shadowEffect();
