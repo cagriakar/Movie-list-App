@@ -62,7 +62,7 @@ function MovieCard(props) {
     }
 
     return (
-        <div className='card mb-4'>
+        <div className='card'>
             <img src={props.image} className='card-img-top' alt={props.title} />
             <div className='card-body'>
                 <p className='card-text mb-2'>
